@@ -1,5 +1,26 @@
+.contact-heading-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 60px;
+  left: -150px;
+  right: 0px;
+}
+.contact-heading
+{
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(50, 51, 56);
+  margin-top: 30px;
+  margin-left: 50%;
+  margin-right: 50%;
+  display: inline-block;
+  white-space: nowrap;
+}
 .contact
 {
-  height: 400px;
-  background-color: rgb(255, 255, 255);
+  position: relative;
+  height: 800px;
 }
