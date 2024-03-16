@@ -10,9 +10,3 @@ html
 {
     scroll-behavior: smooth;
 }
-
-.dark-mode
-{
-    color: whitesmoke;
-    background-color: grey;
-}
