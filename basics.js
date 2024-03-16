@@ -1,8 +1,5 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const navigation = document.querySelector('.headers');
-
-//Collapsable Menu header 
-menuToggle.addEventListener('click', () => 
+function toggleDarkMode()
 {
-    navigation.classList.toggle('active');
-});
+    var body = document.body; 
+    body.classList.toggle("dark-mode");
+}
